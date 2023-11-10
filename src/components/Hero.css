@@ -1,0 +1,29 @@
+.hero{
+    min-height:100vh;
+    /* width: 100vw; */
+    display: flex;
+    align-items: center;
+    background: url(../images/home-img.jpeg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    object-fit: contain;
+    padding: .1rem 7%;
+}
+.content{
+    max-width: 60rem;
+ 
+    /* border: 1px solid red; */
+}
+.herotext1{
+    font-size: 7rem;
+    text-transform: uppercase;
+    color:#fff;
+}
+
+.herotext2{
+    font-size: 2rem;
+    font-weight: lighter;
+    line-height: 1.8;
+    padding: 1rem 0;
+    color:#eee;
+}

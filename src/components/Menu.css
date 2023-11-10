@@ -1,0 +1,14 @@
+.menu{
+    padding: .1rem 7%;
+}
+.menu_title{
+    font-size: 4rem;
+    margin: 3rem;
+    color: #d3ad7f;
+    text-align: center;
+}
+.items{
+    display: grid;
+    grid-template-columns:repeat(auto-fit,minmax(30rem, 1fr));
+    gap: 2rem;
+}

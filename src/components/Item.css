@@ -1,0 +1,27 @@
+.item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #fff;
+    height: 38rem; 
+    border: 1px solid #fff;
+    gap: 1rem;
+}
+.item:hover{
+    background: #ccc;
+    color: #000;
+    transition: all .4s ease-in;
+}
+.price1{
+    font-size: 1.5rem;
+    text-decoration: line-through;
+}
+.item_title{
+    font-size: 2rem;
+    font-weight:400;
+}
+.price{
+    font-weight:400;
+    font-size: 2.4rem;
+}

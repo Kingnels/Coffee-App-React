@@ -1,0 +1,32 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #000;
+    color: #fff;
+    border-bottom: .5px solid #fff ;
+    padding:1.5rem 7%;
+    position: fixed;
+    /* width: 100vw; */
+    top:0; left:0;right:0;
+    z-index: 1000;
+}
+.logo{
+    height: 6.5rem;
+}
+.nav{
+    display: flex;list-style-type: none;
+    
+}
+.navItems{
+    margin: 0 1rem;
+    font-size: 1.6rem;
+    color: #fff;
+}
+.navItems:hover{
+    color:#d3ad7f;
+    border-bottom: 1px solid #d3ad7f;
+    padding-bottom: 0.5rem;  
+    transition: .2s ease-in;
+    cursor: pointer;
+}
