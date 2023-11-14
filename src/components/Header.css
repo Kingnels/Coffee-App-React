@@ -10,6 +10,7 @@
     /* width: 100vw; */
     top:0; left:0;right:0;
     z-index: 1000;
+    
 }
 .logo{
     height: 6.5rem;
@@ -29,4 +30,51 @@
     padding-bottom: 0.5rem;  
     transition: .2s ease-in;
     cursor: pointer;
+}
+.icons{
+    font-size: 2rem;
+    margin-right: 2rem;
+}
+.icons:hover{
+    color: #d3ad7f;
+}
+
+@media all and (max-width: 960px){
+    .nav{
+        display: none;
+    }
+    .open{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        list-style-type: none;
+        position: absolute;
+        top:105px;
+        right:0;
+        background: #2c2b2a;
+        border: 1px solid #fff;
+        width: 40vw;
+        overflow: hidden;
+        padding: 0rem 0; 
+    }
+    .navItems{
+        text-transform: uppercase;
+        padding: 1rem;
+        color: rgb(238, 233, 233);
+        width: 100%;
+        text-align: center;
+        transition: none;
+        margin: 0 1rem;
+        font-size: 1.6rem;
+        line-height: 2;
+        color: #fff;
+        font-weight: 50;
+    }
+    .navItems:hover{
+        background-color: rgb(255, 255, 255);
+        transition: none;
+        color: #000;
+        border:none
+    }
 }

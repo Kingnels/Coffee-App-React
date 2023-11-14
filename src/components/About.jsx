@@ -7,7 +7,9 @@ function About() {
         <h1 className="about_title">ABOUT <span className="span">US</span></h1>
 
         <div className="about_content">
+            <>
             <img src="../../public/images/about-img.jpeg"className="about_image" alt="" /> 
+            </>
 
             <div className="about_text">
                     <h2 className="about_text1">What Makes Our Coffee Special</h2>

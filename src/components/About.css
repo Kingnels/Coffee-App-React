@@ -1,25 +1,30 @@
 .about{
-    padding: .1rem 7%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding:1.5rem 7%;
+
+    /* padding:1.5rem 7%; */
 }
-.about_content {
+.about_content{
     display: flex;
-    flex-direction: row;
     justify-content: center;
-    flex: 1 1 45rem;
+
+
 }
 .about_image{
+    min-width: 50%;
     flex: 1 1 45rem;
 }
 .about_text{
+    min-width: 50%;
     display: flex;
     background: #13131a;
     justify-content: center;
     flex-direction: column;
-    padding: 2rem 2rem;
+    padding: 4rem 2rem;
+
 }
 .about_text1{
     font-size: 3rem;
@@ -44,4 +49,10 @@
     color: #d3ad7f;
     color: #fff;
 
+}
+@media all and (max-width: 960px){
+    .about_content{
+        flex-wrap: wrap;
+        
+    }
 }

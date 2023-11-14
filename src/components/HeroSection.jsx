@@ -2,6 +2,7 @@ import "./Hero.css"
 import Button from './Button'
 
 function HeroSection() {
+  
   return (
     <div className="hero">
         <div className="content">
